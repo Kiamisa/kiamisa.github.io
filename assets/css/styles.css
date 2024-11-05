@@ -1,5 +1,54 @@
-*{
+
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+section {
+    padding: 2rem;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+h2 {
+    color: #333;
+}
+.skills, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.skill, .project {
+    flex: 1 1 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input, .contact-form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.contact-form button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
 }

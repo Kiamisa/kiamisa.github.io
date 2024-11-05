@@ -1,16 +1,85 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silas Henrique | Portifolio</title>
-    <meta name="Description" content="Portifólio de desenvolvedor back-end Silas Henrique">
-
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Silas Henrique | Portfólio</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
 </head>
 <body>
+
+<header>
     <h1>Silas Henrique</h1>
-    
+    <p>Engenheiro de Computação | Eletrônica | Backend</p>
+</header>
+
+<section id="about" class="container">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Sou Silas Henrique, estudante de Engenharia de Computação na UEMA, atualmente no 7º período, 
+        com experiência em Robótica, Automação e Desenvolvimento de APIs RESTful. Tenho interesse em Inteligência Artificial, 
+        Análise de Dados e desenvolvimento Backend.</p>
+</section>
+
+<section id="skills" class="container">
+    <h2>Habilidades</h2>
+    <div class="skills">
+        <div class="skill">
+            <h3>Java</h3>
+            <p>Desenvolvimento de aplicações orientadas a objetos e APIs com Spring Boot.</p>
+        </div>
+        <div class="skill">
+            <h3>Python</h3>
+            <p>Experiência em Análise de Dados e desenvolvimento de scripts para automação.</p>
+        </div>
+        <div class="skill">
+            <h3>Redes e Microprocessadores</h3>
+            <p>Conhecimento em protocolos de rede e programação de microcontroladores.</p>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="container">
+    <h2>Projetos</h2>
+    <div class="projects">
+        <div class="project">
+            <h3>Image-Background-Remover</h3>
+            <p>Código em Python para remoção de fundo de imagem. <a href="https://github.com/Kiamisa/Image-Background-Remover" target="_blank">GitHub</a></p>
+        </div>
+        <div class="project">
+            <h3>CuboAnimacao</h3>
+            <p>Este programa em C exibe uma animação de cubos em uma tela de terminal. Ele calcula a projeção 3D dos cubos e utiliza uma 
+                técnica de buffer para desenhá-los com diferentes caracteres ASCII, resultando em uma visualização 
+                em 2D da rotação dos cubos.<a href="https://github.com/Kiamisa/CuboAnimacao" target="_blank">GitHub</a></p>
+        </div>
+        <div class="project">
+            <h3>SortingAlgorithms</h3>
+            <p>Este programa realiza a análise de complexidade de três algoritmos de ordenação diferentes: StrandSort, 
+                HeapSort e QuickSort. O programa lê um arquivo .txt, executa os algoritmos e gera um arquivo .csv 
+                com os dados de desempenho das execuções. <a href="https://github.com/Kiamisa/SortingAlgorithms" target="_blank">GitHub</a></p>
+        </div>
+        <div class="project">
+            <h3>CaixaEletronicoArduino</h3>
+            <p>Este projeto implementa um caixa eletrônico simples utilizando um Arduino, um display LCD I2C e 
+                um teclado matricial. 
+                O sistema permite realizar operações básicas como depósito, saque, consulta de saldo e outros serviços.<a href="https://github.com/Kiamisa/CaixaEletronicoArduino" target="_blank">GitHub</a></p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="container">
+    <h2>Contato</h2>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Seu Nome" required>
+        <input type="email" name="email" placeholder="Seu Email" required>
+        <textarea name="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Silas Henrique | Todos os direitos reservados</p>
+</footer>
+
 </body>
 </html>
